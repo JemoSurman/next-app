@@ -5,6 +5,7 @@ import Image from "next/image";
 function Footer() {
   return (
     <div className={styles.container}>
+      {/* {gamarjoba} */}
       <div>@all rights reserved</div>
       <div className={styles.socialNetworks}>
         <Image src="/1.png" width={15} className={styles.socialIcon} height={15} alt="facebook " />
